@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "g++ build active file",
+            "type": "shell",
+            "command": "make",
+            // "args": [
+            //     "-C",
+            //     "${workspaceFolder}",
+            //     "main",//这儿注意名字
+            // ] //改一下这上面的
+        }
+    ]
+}
